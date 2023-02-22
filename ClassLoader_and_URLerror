@@ -1,0 +1,6 @@
+For URL error and class loader not found
+
+Add in Application Properties
+
+
+spring.devtools.restart.enabled = false
