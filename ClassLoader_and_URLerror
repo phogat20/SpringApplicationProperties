@@ -4,3 +4,5 @@ Add in Application Properties
 
 
 spring.devtools.restart.enabled = false
+
+@SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
