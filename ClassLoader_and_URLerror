@@ -1,8 +1,14 @@
-For URL error and class loader not found
+<----------------------------------------------For URL error and class loader not found--------------------------------------------->
 
 Add in Application Properties
-
-
 spring.devtools.restart.enabled = false
-
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
+
+<----------------------------------------------------------------------------------------------------------------------------------->
+
+<------------------------------------------------For changing database platform name------------------------------------------------->
+
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+ctrl + shift + T
+
+<----------------------------------------------------------------------------------------------------------------------------------->
