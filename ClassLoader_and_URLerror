@@ -3,7 +3,7 @@
 Add in Application Properties
 spring.devtools.restart.enabled = false
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
-
+@EnableJpaRepositories(basePackageClasses = UserRepo.class) // This does class path scan.
 <----------------------------------------------------------------------------------------------------------------------------------->
 
 <------------------------------------------------For changing database platform name------------------------------------------------->
@@ -12,3 +12,7 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 ctrl + shift + T
 
 <----------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
