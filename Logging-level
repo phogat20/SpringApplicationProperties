@@ -1,6 +1,8 @@
 // -- Default logging level = INFO (very less information)
 --------------------------------------------------------------------------------------------------
 // Changing logging level to debug we can get lots of information. (Positive and Negative Matches)
+// Positive - Things which were auto - config
+// Negative - Things which does not were auto config.
 
 logging.level.org.spring.framework=debug
 --------------------------------------------------------------------------------------------------
