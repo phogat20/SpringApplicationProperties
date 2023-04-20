@@ -4,5 +4,8 @@
 // Positive - Things which were auto - config
 // Negative - Things which does not were auto config.
 
-logging.level.org.spring.framework=debug
+- logging.level.org.spring.framework=debug
+
+// Print even more log then debug
+- logging.level.org.spring.framework=trace
 --------------------------------------------------------------------------------------------------
