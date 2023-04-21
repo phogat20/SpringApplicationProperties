@@ -1,5 +1,17 @@
+-------------------------------------------- LOGGING LEVEL --------------------------------------
+
 // -- Default logging level = INFO (very less information)
---------------------------------------------------------------------------------------------------
+
+--------------level peference ----------------------
+#	- trace
+#	- debug
+#	- info
+#	- warning 
+#	- error 
+#	- off
+----------------------------------------------------
+
+------------------------------- DEBUG & TRACE  --------------------------------------------
 // Changing logging level to debug we can get lots of information. (Positive and Negative Matches)
 // Positive - Things which were auto - config
 // Negative - Things which does not were auto config.
@@ -9,3 +21,10 @@
 // Print even more log then debug
 - logging.level.org.spring.framework=trace
 --------------------------------------------------------------------------------------------------
+
+------------------------------- APPLICATION PROPERTIES FILE ------------------------------------
+
+# To active different profiles
+
+spring.profiles.active=dev
+------------------------------------------------------------------------------------------------
