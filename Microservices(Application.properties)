@@ -1,0 +1,2 @@
+# This property sets the name of the application
+spring.application.name=spring-cloud-config-server
