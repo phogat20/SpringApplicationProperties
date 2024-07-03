@@ -1,0 +1,3 @@
+#SPRING SECURITY
+spring.security.user.name=test1
+spring.security.user.password=1234
